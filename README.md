@@ -12,6 +12,16 @@ Add: IPADDR=192.168.xxx.xxx
 
 systemctl restart network
 
+** ansible
+
+ansible <hosts> -a <command>
+
+ansible all -a "/sbin/reboot"
+
+ansible <hosts> -m <module>
+
+ansible target1 -m ping
+
 ** playbook.yml
 -
   name: Play 1
