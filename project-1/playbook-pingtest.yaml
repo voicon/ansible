@@ -4,4 +4,3 @@
   tasks:
     - name: Ping test
       ping: 
-  
