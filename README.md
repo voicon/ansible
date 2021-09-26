@@ -1,3 +1,6 @@
+![Overview](overview.png "Overview")
+
+
 * ansible works
 
 vi /etc/ansible/ansible.cfg
@@ -48,4 +51,3 @@ ansible target1 -m ping
 
 ** ansible-playbook playbook.yml
 *** ansible-playbook --help
-
